@@ -1,0 +1,117 @@
+{
+    "Numerical Ability": [
+        {
+            "concept": "Percentages",
+            "formula": "x% of y = (x / 100) * y",
+            "shortcut": "x% of y is the exact same as y% of x. (e.g., 2% of 50 = 50% of 2 = 1). Also, a fraction to % shortcut: 1/2=50%, 1/3=33.3%, 1/4=25%, 1/5=20%, 1/6=16.6%, 1/8=12.5%, 1/9=11.1%"
+        },
+        {
+            "concept": "Profit and Loss",
+            "formula": "Profit % = (Profit / Cost Price) * 100 \\nLoss % = (Loss / Cost Price) * 100",
+            "shortcut": "If an item is sold at a profit of x% and then a loss of x%, there is always a net loss equivalent to (x^2 / 100)%."
+        },
+        {
+            "concept": "Simple Interest",
+            "formula": "SI = (P * R * T) / 100",
+            "shortcut": "To double your money at r% interest, rule of 72: T = 72 / r."
+        },
+        {
+            "concept": "Compound Interest",
+            "formula": "A = P * (1 + R/100)^T \\nCI = A - P",
+            "shortcut": "The difference between CI and SI for exactly 2 years is: Difference = P * (R/100)^2"
+        },
+        {
+            "concept": "Time and Work",
+            "formula": "If A can do work in x days, A's 1 day work = 1/x",
+            "shortcut": "If A takes 'x' days and B takes 'y' days, together they take (x*y) / (x+y) days."
+        },
+        {
+            "concept": "Time, Speed, Distance",
+            "formula": "Speed = Distance / Time \\nAverage Speed (equal dist) = (2xy) / (x+y)",
+            "shortcut": "To convert km/hr to m/s, multiply by 5/18. To convert m/s to km/hr, multiply by 18/5."
+        },
+        {
+            "concept": "Trains",
+            "formula": "Train passing a pole: Dist = Length of Train. Train passing a platform: Dist = Length of Train + Length of Platform.",
+            "shortcut": "Relative Speed: If moving in opposite directions, speeds Add (v1+v2). If same direction, speeds Subtract |v1-v2|."
+        }
+    ],
+    "Reasoning Ability": [
+        {
+            "concept": "Syllogisms",
+            "formula": "Use Venn Diagrams.",
+            "shortcut": "All A are B -> Some B are A. No A is B -> No B is A. If premises are Positive, Negative conclusions are mostly false."
+        },
+        {
+            "concept": "Blood Relations",
+            "formula": "Draw a family tree.",
+            "shortcut": "Use squares for Males, circles for Females. Horizontal lines for siblings, vertical for generations. Father's sister = Aunt, Mother's brother = Uncle."
+        },
+        {
+            "concept": "Directions",
+            "formula": "N-E-S-W layout",
+            "shortcut": "If a person faces North and turns right, they face East. If they make multiple turns, add right turns (+90) and left turns (-90) together."
+        },
+        {
+            "concept": "Clocks",
+            "formula": "Hour hand moves 0.5 degrees/min. Minute hand moves 6 degrees/min.",
+            "shortcut": "Angle between hands = |30 * H - 5.5 * M| degrees."
+        }
+    ],
+    "Programming Concepts": [
+        {
+            "concept": "Time Complexity (Big O)",
+            "formula": "O(1) < O(log N) < O(N) < O(N log N) < O(N^2) < O(2^N)",
+            "shortcut": "Loops determine time complexity. Single loop = O(N); Nested loops = O(N^2); Dividing range in half (Binary Search) = O(log N)."
+        },
+        {
+            "concept": "Bitwise Operations",
+            "formula": "AND (&), OR (|), XOR (^), NOT (~), Left Shift (<<), Right Shift (>>)",
+            "shortcut": "XORing a number with itself is 0 (x^x = 0). Left shift (<< 1) multiplies by 2. Right shift (>> 1) divides by 2."
+        },
+        {
+            "concept": "Data Types Capacity (Typical/C++)",
+            "formula": "int: ~2*10^9 (4 bytes). long long: ~9*10^18 (8 bytes).",
+            "shortcut": "If calculating factorials > 12 or Fibonacci > 46, always use 64-bit integer values (long long)."
+        }
+    ],
+    "Coding / DSA": [
+        {
+            "concept": "Arrays",
+            "formula": "Contiguous memory blocks",
+            "shortcut": "For sum queries on subarrays, pre-calculate a Prefix Sum array to resolve queries in O(1) time instead of O(N)."
+        },
+        {
+            "concept": "Searching",
+            "formula": "Linear Search: O(N), Binary Search: O(log N)",
+            "shortcut": "Binary search ONLY works on sorted arrays. Mid calculation safely: mid = left + (right - left) / 2 to avoid overflow."
+        },
+        {
+            "concept": "Sorting",
+            "formula": "Bubble/Insertion/Selection: O(n^2), Merge/Quick: O(n log n)",
+            "shortcut": "When elements are strictly small integers, use Counting Sort for linear O(N) time."
+        },
+        {
+            "concept": "Trees",
+            "formula": "Hierarchical Data Structure",
+            "shortcut": "In-Order Traversal of a Binary Search Tree (BST) visits nodes in strictly ascending sorted order."
+        }
+    ],
+    "Verbal Ability": [
+        {
+            "concept": "Reading Comprehension",
+            "formula": "Skim -> Analyze Questions -> Read Detail",
+            "shortcut": "Often the main idea of a passage is explicitly stated in the first (introductory) or last (concluding) paragraph."
+        },
+        {
+            "concept": "Error Spotting",
+            "formula": "Subject-Verb Agreement",
+            "shortcut": "Singular subjects take verbs with an 's' (The dog runs). Plural subjects take verbs without an 's' (The dogs run). Also check tenses consistently."
+        },
+        {
+            "concept": "Synonyms & Antonyms",
+            "formula": "Context clues",
+            "shortcut": "If you don't know the word, isolate the prefix or suffix (e.g. 'anti-' means against, '-less' means without) or deduce tone (positive/negative) from the sentence."
+        }
+    ]
+}
